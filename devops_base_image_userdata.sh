@@ -1,6 +1,8 @@
 #!/bin/bash
 set +x
 
+# Script is incomplete, mainly a list of bash commands
+# required to install some dependencies for a devops box on ubuntu
 sudo apt update
 sudo apt upgrade -y
 sudo apt install git curl -y

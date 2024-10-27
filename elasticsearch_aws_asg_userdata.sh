@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+set -x
 
 # Script assumes that AWS CLI is installed as part of the base AMI and that the desired EBS volume and ENI have been created in the same
 # AZ as the instance

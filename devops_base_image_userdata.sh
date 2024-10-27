@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+set -x
 
 # Script is incomplete, mainly a list of bash commands
 # required to install some dependencies for a devops box on ubuntu

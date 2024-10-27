@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+set -x
 
 # ECS Cluster Configuration, edit ECS_CLUSTER= to point to the given ECS cluster, default is playground environment
 echo "ECS_CLUSTER=ecs-cluster" >> /etc/ecs/ecs.config

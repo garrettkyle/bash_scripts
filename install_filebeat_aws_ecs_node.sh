@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+set -x
 
 FILEBEAT_CONFIG_DIRECTORY="/filebeat/config"
 FILEBEAT_DATA_DIRECTORY="/filebeat/data"
